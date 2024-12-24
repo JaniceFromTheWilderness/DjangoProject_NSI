@@ -1,0 +1,10 @@
+
+cd /home/kian/Dropbox/曠野數據分析/2024/工研院_製造業模型更新專案/djangoProject_ITRI/ITRI
+
+/home/kian/anaconda3/envs/LLM/bin/python   -m venv venv_dajngo
+
+source venv_dajngo/bin/activate
+
+pip install -r requirements_django.txt
+
+python  manage.py runserver

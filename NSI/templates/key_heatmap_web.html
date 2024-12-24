@@ -1,0 +1,51 @@
+{% extends 'base.html' %} {# 啟用父模板，繼承的概念 #}
+{% load static %}
+{% load crispy_forms_tags %}
+{% load plotly_dash %}
+<head>
+<link rel="stylesheet"  href="{% static '/css/freestyle.css' %}">
+{% block title %}
+    新聞關鍵字字典熱力圖
+{% endblock title %}  <!-- 配上 base 定義的固定 title 格式 -->
+     </head>
+{% block content %}
+
+
+
+<div >
+
+<div class="alert alert-success" role="alert">
+    <div class="elementor-image-container">
+        <div class="elementor-image">
+            <img decoding="async" src="{% static 'images/6.png' %}" alt="" loading="lazy">
+        </div>
+        <div class="elementor-image">
+            <img decoding="async" src="{% static 'images/7.png' %}" alt="" loading="lazy">
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+{% if app_key_heatmap %}
+<br>
+<div class="mt-1 mb-1 pt-2 " style="
+    position: relative;
+    padding-bottom: 100%;
+    height:2600px;
+    padding: 20px;
+    overflow:auto;
+    " >
+
+  <iframe src="/django_plotly_dash/app/app_key_heatmap/" style=" vc
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;"</iframe>
+</div>
+
+{% endif %}
+
+{% endblock content %}

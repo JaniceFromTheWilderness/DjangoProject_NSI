@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'oxxo123';
+  src: url('../ttfs/YuPearl-Regular.ttf'); /*!注意路徑*/
+}
+@font-face {
+  font-family: 'oxxo';
+  src: url('../ttfs/ChenYuluoyan-Thin-Monospaced.ttf'); /*!注意路徑*/
+}
+
+@font-face {
+  font-family: 'setofont';
+  src: url('../ttfs/setofont.ttf'); /*!瀨戶字體支援繁體、簡體、日文，而且支援日文，包含 CJK 常用漢字、平片假名、JIS第一至四級，共 30000 餘字，不過有些繁體字還是不能顯示啦。*/
+}
+
+@font-face {
+  font-family: 'NotoSerifTC';
+  src: url('../ttfs/NotoSerifTC-SemiBold.otf'); /*!注意路徑*/
+}
+.elementor-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px; /* 圖片之間的間距 */
+}
+
+.elementor-image {
+    flex: 1 1 50%; /* 圖片在大螢幕時佔用45%寬度，兩張圖可以並排 */
+    max-width: 100%;
+}
+
+.elementor-image img {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+@media (max-width: 1600px) {
+    .elementor-image {
+        flex: 1 1 100%; /* 小螢幕上每張圖片佔滿整行 */
+        max-width: 70%;
+    }
+}
+
+.Button2  {
+    box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(249, 249, 249) 5%, rgb(233, 233, 233) 100%) rgb(249, 249, 249);
+    border-radius: 6px;border: 1px solid rgb(220, 220, 220);
+    display: inline-block;cursor: pointer;
+    color: rgb(102, 102, 102);
+    font-size: 15px;font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px
+}
+
+.Button1  {
+    box-shadow: rgb(187, 218, 247) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(121, 187, 255) 5%, rgb(55, 141, 229) 100%) rgb(121, 187, 255);
+    border-radius: 6px;border: 1px solid rgb(132, 187, 243);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgb(82, 142, 204) 0px 1px 0px
+}
+
+.export {
+    content: "下載table資料為 excel 檔";
+    box-shadow: rgb(187, 218, 247) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(121, 187, 255) 5%, rgb(55, 141, 229) 100%) rgb(121, 187, 255);
+    border-radius: 6px;
+    border: 1px solid rgb(132, 187, 243);
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(82, 142, 204) 0px 1px 0px
+    display: inline-block;
+    font-weight:400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border:1px solid transparent;
+    padding:.575rem.75rem;
+    font-size:1rem;
+    line-height:1.5;
+    border-radius:.25rem;
+    position:absolute;
+    top: -60px;
+    right: 0px;
+    margin-bottom:1.0rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.container1, .container1-fluid, .container1-xxl, .container1-xl, .container1-lg, .container-1md, .container1-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+
+.mantine-65gzgh {
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    border-bottom: 1px solid 	#178CA4;
+}
+.mantine-97dq4g[data-active] {
+    border-color:  #00AEAE;
+    background-color: #fff0;
+}
+
+
+.mantine-97dq4g {
+    -webkit-tap-highlight-color: transparent;
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+    appearance: none;
+    background-color: #edf2f8;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    padding: 10px 16px;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    line-height: 1;
+    border-radius: 4px 4px 0px 0px;
+    border-top: 1px solid transparent;
+    border-right: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-image: initial;
+    border-bottom: none;
+}
+.mantine-1e34boz {
+    -webkit-tap-highlight-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    cursor: pointer;
+    appearance: none;
+    background-color: #f0f0f0;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    padding: 10px 16px;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    line-height: 1;
+    border-radius: 4px 4px 0px 0px;
+    border-top: 1px solid transparent;
+    border-right: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-image: initial;
+    border-bottom: none;
+}
+.my-checklist {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+.my-checklist2 {
+    display: flex;
+    flex-wrap': 'wrap;
+    flex-direction': 'row;
+    column-gap': '5px;
+    row-gap': '5px;
+    width': '600px;
+}
+.my-checklist label {
+    margin: 0;
+}
+
+.dash-graph {
+    aspect-ratio: 16 / 9;
+}
+body {
+    margin: 0;
+}
+.f0{
+  font-family:辰宇落雁體, oxxo, serif;
+}
+.f01{
+  font-family:瀨戶字體, setofont, serif;
+}
+.f02{
+  font-family:思源宋體, NotoSerifTC, serif;
+}
+.f03{
+  font-family:俊羽圓體, oxxo123, serif;
+}
+.icon-airplane:before {
+  content: "\e9af";
+}
+.bd-callout-info {
+    border-left-color: #5bc0de;
+}
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.wheat {
+      background: #F9F7F0; /*!麥色*/
+  }
+.aqua {
+      background: #18B7BE; /*!水藍色*/
+  }
+.sky_blue {
+      background: #178CA4; /*!天藍色*/
+  }
+.salvia blue {
+      background: #072A40; /*!鼠尾草藍色*/
+  }
+.coral {
+      background: #FF7F50; /*!珊瑚紅色*/
+  }
+.honey_orange {
+      background: #E59A59; /*!淡橘色*/
+  }
+.peach_puff {
+      background: #FFD5AF; /*!膚色*/
+  }
+
+.LightYellow {
+      background:  rgba(255,255,0,.07);
+  }
+
+.blue-yellow {
+      background:  linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  }
+.sea-foam {
+      background:  #B3DEE5;/*!海沫藍色*/
+  }
+.StickyHeader {
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index:1000000; /*!保持在頁面最頂層 使不會因滑動而被覆蓋*/
+    top: 0;
+
+}
+.navbar-brand2 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 1rem;
+    background-color: background-color:rgb(95,158,160);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+.tea {
+    background:  rgba(236,220,194);
+}
+.tweet-button {
+    background-color: #55ACEE;
+    border-color: #55ACEE;
+}

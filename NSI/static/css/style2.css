@@ -1,0 +1,36 @@
+/*
+顏色參數選擇:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool*/
+/*
+
+.info {
+    background-color: rgba(255,255,0,.07); /* 註解:背景色 */
+}
+html { /*改變頁面顏色*/
+  background-color: rgba(255,255,0,.07)
+}
+.LightYellow {
+      background-color:  rgba(255,255,0,.07);
+  }
+h1 {/*設定我們主要頁面標題的位置（Positioning）和風格（styling）*/
+  margin: 0;
+  padding: 20px 0; /*標題的頂部和底部填充設置為 20 像素*/
+
+  /*text-shadow: 3px 3px 1px black;text-shadow，它將文本陰影應用於元素的文本內容。它的四個值如下：
+  第一個像素值設置陰影與文本的水平偏移量——它移動了多遠：負值應該將它移動到左邊。
+第二個像素值設置陰影與文本的垂直偏移量——在本例中，它向下移動了多遠；負值應該向上移動。
+第三個像素值設置陰影的模糊半徑——值越大，陰影越模糊。
+第四個值設置陰影的基本顏色。*/
+}
+*/
+body {/*設定 body 的風格（styling）*/
+  /*width: 600px; 將 body 寬度固定為 600 像素*/
+  margin: auto auto;/*第一個值影響元素的頂部和底部（0在本例中為），第二個值影響左側和右側（這裡auto是一個特殊值，用於劃分可用左右之間的水平空間均勻）*/
+
+  /*padding: 0 20px 20px 20px;設置了四個值，以便在我們的內容周圍留出一點空間。這次我們在 body 的頂部設置無填充，在左側、底部和右側設置 20 個像素。這些值按該順序設置為上、右、下、左。*/
+  /*border: 5px solid black;身體的所有側面設置了一個 5 像素寬的純黑色邊框*/
+}
+/*img { 把圖像置中
+  display: block;
+  margin: auto auto;
+}*/
