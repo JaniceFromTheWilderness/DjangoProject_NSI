@@ -38,9 +38,15 @@ $$
 S_{t,j}^{\mathrm{A,ps,ind}} = \sum_{i=1}^{M_{t,j}} \mathbf{1}\{ WS_{t,ji} \in \mathrm{DICT}_{A,\mathrm{ps}} \} \cdot \mathbf{1}\left\{ \exists k \in \{1, \dots, M_{t,j}\} \text{ such that } WS_{t,jk} \in \mathbb{K}_{\mathrm{ind}} \right\}
 $$
 
+```latex
+S_{t,j}^{\mathrm{A,ps,ind}} = \sum_{i=1}^{M_{t,j}} \mathbf{1}\{ WS_{t,ji} \in \mathrm{DICT}_{A,\mathrm{ps}} \} \cdot \mathbf{1}\left\{ \exists k \in \{1, \dots, M_{t,j}\} \text{ such that } WS_{t,jk} \in \mathbb{K}_{\mathrm{ind}} \right\}
+```
 $$
 S_{t,j}^{\mathrm{A,neg,ind}} = \sum_{i=1}^{M_{t,j}} \mathbf{1}\{ WS_{t,ji} \in \mathrm{DICT}_{A,\mathrm{neg}} \} \cdot \mathbf{1}\left\{ \exists k \in \{1, \dots, M_{t,j}\} \text{ such that } WS_{t,jk} \in \mathbb{K}_{\mathrm{ind}} \right\}
 $$
+```latex
+S_{t,j}^{\mathrm{A,neg,ind}} = \sum_{i=1}^{M_{t,j}} \mathbf{1}\{ WS_{t,ji} \in \mathrm{DICT}_{A,\mathrm{neg}} \} \cdot \mathbf{1}\left\{ \exists k \in \{1, \dots, M_{t,j}\} \text{ such that } WS_{t,jk} \in \mathbb{K}_{\mathrm{ind}} \right\}
+```
 
 時間點 $t$ 下，產業相關的情緒分數定義為：
 
