@@ -72,13 +72,13 @@ $$
 
 基於情緒指標四，按句子的斷詞數進行標準化：
 
-$$
+$
 \tilde{\bar{S}}_{t,j}^{\mathrm{A,ps}} = \sum_{l} \frac{\sum_{i \in Sen_{t,jl}} \mathbf{1}\{ i \in \mathrm{DICT}_{A,\mathrm{ps}} \}}{|Sen_{t,jl}|}
-$$
-\tilde{\bar{S}}{t,j}^{\mathrm{A,ps}} = \sum{l} \frac{\sum_{i \in Sen_{t,jl}} \mathbf{1}{i \in \mathrm{DICT}{A,\mathrm{ps}}}}{|Sen_{t,jl}|}
-$$
+$
+
+$
 \tilde{\bar{S}}_{t,j}^{\mathrm{A,neg}} = \sum_{l} \frac{\sum_{i \in Sen_{t,jl}} \mathbf{1}\{ i \in \mathrm{DICT}_{A,\mathrm{neg}} \}}{|Sen_{t,jl}|}
-$$
+$
 
 ### 表格：情緒指標定義
 
