@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # Django project for News Sentiment Indicator
 This project leverages natural language models to perform sentiment analysis on industry news content and calculate a sentiment index. Using the Django framework, an intuitive and interactive analytics interface was developed, allowing users to flexibly adjust modeling parameters and visualize sentiment index results. This empowers users to accurately interpret sentiment trends and make data-driven decisions.
 
