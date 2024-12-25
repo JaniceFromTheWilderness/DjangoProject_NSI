@@ -1,1 +1,1 @@
-# DjangoProject_NSI
+# Django project for News Sentiment Indicator
