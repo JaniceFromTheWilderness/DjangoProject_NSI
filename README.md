@@ -34,9 +34,7 @@ $$
 
 相較於情緒指標一針對每一天的所有新聞計算情緒分數，本範例透過關鍵字字典篩選每日新聞，僅將包含產業、總體經濟或不分類關鍵字的新聞納入計算。對於每日新聞 $A_{t,j}$，若其斷詞結果包含至少一個產業關鍵字（即 $\exists i$ 使得 $WS_{t,ji} \in \mathbb{K}_{\mathrm{ind}}$），則計算該篇新聞的正面與負面情緒分數：
 
-$$
-S_{t,j}^{\mathrm{A,ps,ind}} = \sum_{i=1}^{M_{t,j}} \mathbf{1}\{ WS_{t,ji} \in \mathrm{DICT}_{A,\mathrm{ps}} \} \cdot \mathbf{1}\left\{ \exists k \in \{1, \dots, M_{t,j}\} \text{ such that } WS_{t,jk} \in \mathbb{K}_{\mathrm{ind}} \right\}
-$$
+$$S_{t,j}^{\mathrm{A,ps,ind}} = \sum_{i=1}^{M_{t,j}} \mathbf{1}\{ WS_{t,ji} \in \mathrm{DICT}_{A,\mathrm{ps}} \} \cdot \mathbf{1}\left\{ \exists k \in \{1, \dots, M_{t,j}\} \text{ such that } WS_{t,jk} \in \mathbb{K}_{\mathrm{ind}} \right\}$$
 
 $$
 S_{t,j}^{\mathrm{A,neg,ind}} = \sum_{i=1}^{M_{t,j}} \mathbf{1}\{ WS_{t,ji} \in \mathrm{DICT}_{A,\mathrm{neg}} \} \cdot \mathbf{1}\left\{ \exists k \in \{1, \dots, M_{t,j}\} \text{ such that } WS_{t,jk} \in \mathbb{K}_{\mathrm{ind}} \right\}
@@ -72,13 +70,13 @@ $$
 
 基於情緒指標四，按句子的斷詞數進行標準化：
 
-$
+$$
 \tilde{\bar{S}}_{t,j}^{\mathrm{A,ps}} = \sum_{l} \frac{\sum_{i \in Sen_{t,jl}} \mathbf{1}\{ i \in \mathrm{DICT}_{A,\mathrm{ps}} \}}{|Sen_{t,jl}|}
-$
+$$
 
-$
+$$
 \tilde{\bar{S}}_{t,j}^{\mathrm{A,neg}} = \sum_{l} \frac{\sum_{i \in Sen_{t,jl}} \mathbf{1}\{ i \in \mathrm{DICT}_{A,\mathrm{neg}} \}}{|Sen_{t,jl}|}
-$
+$$
 
 ### 表格：情緒指標定義
 
