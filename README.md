@@ -38,12 +38,10 @@ $$
 S_{t,j}^{\mathrm{A,ps,ind}} = \sum_{i=1}^{M_{t,j}} \mathbf{1}\{ WS_{t,ji} \in \mathrm{DICT}_{A,\mathrm{ps}} \} \cdot \mathbf{1}\left\{ \exists k \in \{1, \dots, M_{t,j}\} \text{ such that } WS_{t,jk} \in \mathbb{K}_{\mathrm{ind}} \right\}
 $$
 
-![公式1](https://latex.codecogs.com/svg.latex?S_%7Bt%2Cj%7D%5E%7B%5Cmathrm%7BA%2Cps%2Cind%7D%7D%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7BM_%7Bt%2Cj%7D%7D%20%5Cmathbf%7B1%7D%5C%7B%20WS_%7Bt%2Cji%7D%20%5Cin%20%5Cmathrm%7BDICT%7D_%7BA%2C%5Cmathrm%7Bps%7D%7D%20%5C%7D%20%5Ccdot%20%5Cmathbf%7B1%7D%5Cleft%5C%7B%20%5Cexists%20k%20%5Cin%20%5C%7B1%2C%20%5Cdots%2C%20M_%7Bt%2Cj%7D%5C%7D%20%5Ctext%7B%20such%20that%20%7D%20WS_%7Bt%2Cjk%7D%20%5Cin%20%5Cmathbb%7BK%7D_%7B%5Cmathrm%7Bind%7D%7D%20%5Cright%5C%7D)
 
 $$
 S_{t,j}^{\mathrm{A,neg,ind}} = \sum_{i=1}^{M_{t,j}} \mathbf{1}\{ WS_{t,ji} \in \mathrm{DICT}_{A,\mathrm{neg}} \} \cdot \mathbf{1}\left\{ \exists k \in \{1, \dots, M_{t,j}\} \text{ such that } WS_{t,jk} \in \mathbb{K}_{\mathrm{ind}} \right\}
 $$
-![公式2](https://latex.codecogs.com/svg.latex?S_%7Bt%2Cj%7D%5E%7B%5Cmathrm%7BA%2Cneg%2Cind%7D%7D%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7BM_%7Bt%2Cj%7D%7D%20%5Cmathbf%7B1%7D%5C%7B%20WS_%7Bt%2Cji%7D%20%5Cin%20%5Cmathrm%7BDICT%7D_%7BA%2C%5Cmathrm%7Bneg%7D%7D%20%5C%7D%20%5Ccdot%20%5Cmathbf%7B1%7D%5Cleft%5C%7B%20%5Cexists%20k%20%5Cin%20%5C%7B1%2C%20%5Cdots%2C%20M_%7Bt%2Cj%7D%5C%7D%20%5Ctext%7B%20such%20that%20%7D%20WS_%7Bt%2Cjk%7D%20%5Cin%20%5Cmathbb%7BK%7D_%7B%5Cmathrm%7Bind%7D%7D%20%5Cright%5C%7D)
 
 
 時間點 $t$ 下，產業相關的情緒分數定義為：
